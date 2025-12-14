@@ -20,7 +20,7 @@ export default function Fina() {
             {/* Left side  */}
         <div className="jk7">
             <div className="pic1">
-                <img  className='' src={require('../../../assets/images/meeee.png')}></img>
+                <img  src={require('../../../assets/images/meeee.png' )} alt='Profile'></img>
             </div>
             <div>
                 <Contact/>

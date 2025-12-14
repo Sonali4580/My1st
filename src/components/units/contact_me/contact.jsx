@@ -29,7 +29,7 @@ export default function Contact() {
         <div className='head' ><div style={{fontWeight:'900'}} >Contact Me</div>
         {con.map(item =>(
             <div key={item.id} className="subC">
-                   <div  className="sub1"><img src={item.icon}/></div>
+                   <div  className="sub1"><img src={item.icon} alt='icon'/></div>
                         <div className="sub2">{item.info}</div>
                          </div>
                 ))}
